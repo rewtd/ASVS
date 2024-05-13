@@ -16,7 +16,7 @@ Business logic security is so individual to every application that no one checkl
 | :---: | :--- | :---: | :---: | :---: | :---: |
 | **11.1.1** | Verify that the application will only process business logic flows for the same user in sequential step order and without skipping steps. | ✓ | ✓ | ✓ | 841 |
 | **11.1.2** | [MOVED TO 11.2.1] | | | | |
-| **11.1.3** | [MODIFIED] Verify that the application has appropriate limits defined on a per user basis for specific business actions or transactions. | ✓ | ✓ | ✓ | |
+| **11.1.3** | [MODIFIED] Verify that the application has appropriate limits defined on a per user basis for specific business actions or transactions, i.e. if, from a business perspective, you should only be able to execute a transaction once per user this should be enforced by code. | ✓ | ✓ | ✓ | |
 | **11.1.4** | [MOVED TO 11.2.2] | | | | |
 | **11.1.5** | [MODIFIED] Verify that the application has globally defined business logic limits or validation to protect against likely business risks or threats, identified using threat modeling or similar methodologies. | ✓ | ✓ | ✓ | |
 | **11.1.6** | [MODIFIED] Verify that the application uses synchronization and locking mechanisms for sensitive operations in order to keep internal data consistent, maintain user state, and prevent race conditions, such as 'time of check to time of use (TOCTOU)' vulnerabilities. | | ✓ | ✓ | 367 |
